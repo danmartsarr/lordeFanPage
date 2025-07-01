@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Virgem - Fã Page</title>
+  <link rel="icon" type="image/gif" href="skell2.gif">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+    body {
+      font-family: 'Press Start 2P', cursive;
+      background: url('runner.gif');
+      color: #000080;
+      margin: 0;
+      padding: 0;
+	  cursor: url('https://cur.cursors-4u.net/symbols/sym-1/sym55.cur'), auto;
+    }
+
+    ::-webkit-scrollbar {
+      width: 16px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #c0c0c0;
+      border: 2px solid #808080;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #ffffff;
+      border: 2px solid #000000;
+    }
+
+    .gif-banner {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      width: 800px;
+      margin: auto;
+      background: #ffffff;
+      border: 4px double #000080;
+      padding: 20px;
+      box-shadow: 0 0 20px #000;
+      margin-top: 0;
+    }
+
+    .marquee {
+      background-color: #c0c0c0;
+      color: #ff00ff;
+      font-weight: bold;
+      padding: 10px;
+      border: 3px ridge #000;
+      margin-bottom: 15px;
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: magenta;
+        background-color: yellow;
+      }
+    }
+
+    .header {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .img90s {
+      width: 300px;
+      border: 5px outset #808080;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #004e4e;
+      border: 3px outset #003333;
+      color: #fff;
+      text-decoration: none;
+      font-size: 12px;
+      box-shadow: inset 1px 1px #336666, inset -1px -1px #002222;
+    }
+
+    .button:hover {
+      background: #007777;
+      border: 3px inset #002222;
+    }
+
+    .counter {
+      font-size: 10px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    hr {
+      border: 2px dotted #000080;
+    }
+
+    .box3d {
+      background: #e0e0ff;
+      border: 3px outset #808080;
+      padding: 15px;
+      margin: 20px 0;
+      box-shadow: inset 2px 2px 0 #fff, inset -2px -2px 0 #888;
+      font-size: 12px;
+      color: #000080;
+    }
+
+    .esoterica {
+      background: #ffccff;
+      border: 3px double magenta;
+      padding: 10px;
+      font-size: 10px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .new-tag {
+      color: red;
+      animation: blinker 0.5s step-start infinite;
+    }
+
+    @keyframes blinker {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    .sparkles {
+      display: block;
+      margin: 10px auto;
+      width: 64px;
+      height: 64px;
+    }
+
+    .corner-gif {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      z-index: 9999;
+      width: 120px;
+      filter: drop-shadow(0 0 8px #fff);
+      border: 2px solid #fff;
+      border-radius: 10px;
+      background: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Cursor credit -->
+  <a href="https://www.cursors-4u.com/cursor/2011/11/19/smiling-jack-skellington.html" target="_blank" title="Smiling Jack Skellington">
+    <img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Smiling Jack Skellington" style="position: absolute; top: 0px; right: 0px; z-index:999;" />
+  </a>
+
+  <!-- Virgindade restaurada gif (trocado) -->
+  <img class="corner-gif" src="angel.gif" alt="virgindade restaurada">
+
+  <!-- Música local -->
+  <audio id="blessing" src="Hammer.mp3" preload="auto"></audio>
+
+  <img class="gif-banner" src="movement.gif" alt="banner gif lorde">
+
+  <div class="container">
+
+    <div class="marquee">
+      <marquee behavior="alternate">🌟 Bem-vindo ao Fã Clube "Virgin" da Lorde 🌟</marquee>
+    </div>
+
+    <div class="header">
+      <h1>LORDE - VIRGIN ERA <span class="new-tag">✨NEW!</span></h1>
+      <p>Quando se tem um martelo tudo parece prego</p>
+    </div>
+
+    <div style="text-align:center;">
+      <img class="img90s" src="Virgin.png" alt="Lorde Virgin">
+      <p><i>"Ah! Perereca!"</i></p>
+      <a class="button" href="#" onclick="abençoar()">💿 Receber Bênção da Lorde</a>
+    </div>
+
+    <hr>
+
+    <div class="box3d">
+      <p>☁️ Canal Street: o piercing, a aura, o começo da mutação.</p>
+      <p>🕯️ “Some days I’m a woman / Some days I’m a man” — e às vezes os dois sangram.</p>
+      <p>💧 Espelhos falam. A pele também.</p>
+      <p>🍇 Seu corpo não é templo, é rave.</p>
+      <p>👶 Uma filha, uma mãe, uma deusa com fita no peito e terra nos pés.</p>
+      <p>🫀 Se você ouve “GRWM” e não chora, talvez ainda esteja dormindo.</p>
+      <p>🌑 “Clearblue” é mais que um teste. É ritual, é memória no lixo.</p>
+      <p>💥 Orgulho, ovulação e autoaceitação no BPM certo.</p>
+    </div>
+
+    <img class="sparkles" src="sparkler.gif" alt="estrela glitter">
+
+    <h2>💿 Faixas do álbum</h2>
+    <ul>
+      <li>01. Hammer</li>
+      <li>02. What Was That</li>
+      <li>03. Shapeshifter</li>
+      <li>04. Man of the Year</li>
+      <li>05. Favourite Daughter</li>
+      <li>06. Current Affairs</li>
+      <li>07. Clearblue</li>
+      <li>08. GRWM</li>
+      <li>09. Broken Glass</li>
+      <li>10. If She Could See Me Now</li>
+      <li>11. David</li>
+    </ul>
+
+    <hr>
+
+    <div class="esoterica">
+      <p>✨ hoje a lua está em virgem ✨</p>
+      <p>ideal para ouvir "Clearblue" em jejum emocional</p>
+    </div>
+
+    <div class="counter">
+      <img src="https://www.counter12.com/img-4dZZ99AzAZcZ5YYW-7.gif" alt="contador de visitas">
+      <p>Você é o visitante nº 69! 🎉</p>
+    </div>
+
+    <p style="text-align:center; font-size: 10px;">Esta página foi construída com o poder do Sol - versão 1.0 - Hospedada no GeoCities</p>
+  </div>
+
+  <script>
+  function abençoar() {
+    const audio = document.getElementById('blessing');
+    audio.play();
+    alert("🪽 Sua virgindade foi restaurada com sucesso. Prepare-se para ser transformada.");
+  }
+</script>
+
+
+
+  </script>
+</body>
+</html>
